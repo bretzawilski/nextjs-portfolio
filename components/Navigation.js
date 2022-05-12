@@ -13,6 +13,9 @@ const Navigation = () => {
                         Your Name
                     </a>
           </Link>
+          <Link href="/contact">
+            Contact
+          </Link>
           <ThemeSwitch />
             </div>
         </div>
