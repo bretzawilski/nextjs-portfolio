@@ -1,4 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAmbulance, faAnchor } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGithub,
+  faMedium,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -14,7 +22,11 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Twitter
+              {/* Twitter */}
+              <FontAwesomeIcon
+                icon={faTwitter}
+                className={"hover:text-yellow-500 text-3xl transition-colors"}
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/zawilsbj/"
@@ -22,7 +34,11 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              LinkedIn
+              {/* LinkedIn */}
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className={"hover:text-yellow-500 text-3xl transition-colors"}
+              />
             </a>
             <a
               href="https://github.com/bretzawilski"
@@ -30,7 +46,11 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              GitHub
+              {/* GitHub */}
+              <FontAwesomeIcon
+                icon={faGithub}
+                className={"hover:text-yellow-500 text-3xl transition-colors"}
+              />
             </a>
             <a
               href="https://medium.com/@bzawilski"
@@ -38,7 +58,11 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Medium
+              {/* Medium */}
+              <FontAwesomeIcon
+                icon={faMedium}
+                className={"hover:text-yellow-500 text-3xl transition-colors"}
+              />
             </a>
           </div>
         </div>

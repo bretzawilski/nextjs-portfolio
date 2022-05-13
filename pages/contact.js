@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="space-y-14 lg:space-y-24">
       <Head>
-        <title>Create Next App</title>
+        <title>Contact Bret</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

@@ -12,18 +12,22 @@ const Navigation = () => {
               "font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white dark:hover:text-sky-500"
             }
           >
-            Your Name
+            Bret Zawilski, Ph.D.
           </a>
         </Link>
         <div className="flex items-center">
           <Link className="" href="/teaching">
-            <a className="hover:text-sky-500 px-2">Teaching</a>
+            <a className="hover:text-sky-500 px-2 transition-colors">
+              Teaching
+            </a>
           </Link>
           <Link className="" href="/research">
-            <a className="hover:text-sky-500 px-2">Research</a>
+            <a className="hover:text-sky-500 px-2 transition-colors">
+              Research
+            </a>
           </Link>
           <Link className="" href="/contact">
-            <a className="hover:text-sky-500 px-2">Contact</a>
+            <a className="hover:text-sky-500 px-2 transition-colors">Contact</a>
           </Link>
           <ThemeSwitch className="sky-500" />
         </div>
