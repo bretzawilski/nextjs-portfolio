@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex flex-wrap space-x-2 pt-2 font-medium sm:space-x-4 lg:pt-0">
             <a
               href="https://twitter.com/thisisdrzed"
-              className={'transition-colors hover:text-yellow-500'}
+              className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
             >
@@ -18,7 +18,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/zawilsbj/"
-              className={'transition-colors hover:text-yellow-500'}
+              className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
             >
@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
             <a
               href="https://github.com/bretzawilski"
-              className={'transition-colors hover:text-yellow-500'}
+              className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
             >
@@ -34,18 +34,17 @@ const Footer = () => {
             </a>
             <a
               href="https://medium.com/@bzawilski"
-              className={'transition-colors hover:text-yellow-500'}
+              className={"transition-colors hover:text-yellow-500"}
               target="_blank"
               rel="noreferrer"
             >
               Medium
             </a>
-           
           </div>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
